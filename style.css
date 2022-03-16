@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    margin-top: 700px;
+
+}
+
+#welcome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    background: linear-gradient(pink 0%, purple 100%);
+    opacity: 0.9;
+    display: table;
+    width: 100%;
+    z-index:9;
+}
+
+.header {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+
+}
+
+#Image1 {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 100%;
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 1.2;
+    font-family: monospace;
+}
+#bio{
+    padding: 50px;
+    font-size: 45px;
+    text-align: center;
+} 
+.line{
+    background-color:cadetblue;
+    width: 100px;
+    height: 6px;
+    margin: 8px auto; 
+}
+p{
+   max-width: 650px;
+    margin: 50px auto;
+    line-height: 1.5;
+    font-size: 20px; 
+    font-family: 'Dancing Script', cursive;
+}
+.menu{
+    position: absolute;
+    top:20px;
+    right:20px;
+    z-index: 999;
+    
+}
+.links{
+    list-style:none;
+    float:left;
+    padding: 5px 10px;
+    font-size: 20px;
+    
+}
+a{
+   text-decoration: none;
+    color: white;
+    font-family: 'Charm', cursive;
+}
+
+.links:hover{
+    background-color: rebeccapurple;
+}
+
+
+
